@@ -20,7 +20,7 @@ def generate_launch_description():
     husky_spawner = os.path.join(
         get_package_share_directory('husky_description'), 
         'launch', 
-        'description_launch.py'
+        'spawn_husky.py'
     )
 
     # Webots Driver Node (robot controller)
