@@ -28,8 +28,7 @@ Below is a list of versions released for this project. Each version has a link t
 
 | Version                        | Status     | Release Date | Description                                  |
 |--------------------------------|------------|--------------|----------------------------------------------|
-| [v1.0.0](https://gitlab.inesctec.pt/agrob/Agrob4Simulation/-/tree/v1.0.0?ref_type=tags) | Deprecated | 2025-02-18   | Initial release with basic functionalities.| 
-| [v2.0.0](https://gitlab.inesctec.pt/agrob/Agrob4Simulation/-/tags/v2.0.0) | Active     | 2025-06-04   | &bull; Webots-ROS2 Docker <br> &bull; Webots-Packages for simulation launching |
+| [v1.0.0](https://github.com/thiago-b-levin/Agrob4Simulation/tree/v1.0.0) | Active     | 2025-06-04   | &bull; Webots-ROS2 Docker <br> &bull; Webots-Packages for simulation launching |
 
 <!-- ## Prototype Status <span style="color:blue"> -- TODO --</span>
 Current status of the prototype (e.g., "In Development," "Testing Phase," or "Completed"). Briefly describe the main focus of the current phase or any known limitations. -->
