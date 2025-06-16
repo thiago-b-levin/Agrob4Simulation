@@ -4,7 +4,7 @@
   <name>gt_pub</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="anonymous">anonymous</maintainer>
+  <maintainer email="thiago.levin@inesctec.pt">Thiago Levin</maintainer>
   <license>TODO: License declaration</license>
 
   <depend>rclpy</depend>

@@ -1,3 +1,11 @@
+<div align="center">
+  <p align="center">
+    <img src="./docs/INESCTEC_MAIN.png" alt="Logotipo Instituição A" width="200"/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- Espaço entre as imagens -->
+    <img src="./docs/TRIBE_MAIN.png" alt="Logotipo Instituição B" width="200"/>
+  </p>
+</div>
+
 # Agrob4Simulation
 
 This repository contains the tools that allows the use of the Webots-ROS2 framework that enables synthetic dataset generation, SLAM solution testing and other navigation solutions. 
@@ -15,13 +23,13 @@ This repository contains the tools that allows the use of the Webots-ROS2 framew
 <!-- - [Acknowledgments](#acknowledgments) -->
 <!-- - [Prototype Status](#prototype-status) -->
 <!-- - [Hardware Documentation](#hardware-documentation) -->
-<!-- ## Version History 
+## Version History 
 Below is a list of versions released for this project. Each version has a link to its release notes or relevant documentation.
 
 | Version                        | Status     | Release Date | Description                                  |
 |--------------------------------|------------|--------------|----------------------------------------------|
 | [v1.0.0](https://gitlab.inesctec.pt/agrob/Agrob4Simulation/-/tree/v1.0.0?ref_type=tags) | Deprecated | 2025-02-18   | Initial release with basic functionalities.| 
-| [v2.0.0](https://gitlab.inesctec.pt/agrob/Agrob4Simulation/-/tags/v2.0.0) | Active     | 2025-06-04   | &bull; Webots-ROS2 Docker <br> &bull; Webots-Packages for simulation launching | -->
+| [v2.0.0](https://gitlab.inesctec.pt/agrob/Agrob4Simulation/-/tags/v2.0.0) | Active     | 2025-06-04   | &bull; Webots-ROS2 Docker <br> &bull; Webots-Packages for simulation launching |
 
 <!-- ## Prototype Status <span style="color:blue"> -- TODO --</span>
 Current status of the prototype (e.g., "In Development," "Testing Phase," or "Completed"). Briefly describe the main focus of the current phase or any known limitations. -->
@@ -253,7 +261,7 @@ Overview of the main folders and files in the repository to help users navigate 
 
 ---
 
-<!-- ## Contributors 
+## Contributors 
 We thank the following team members for their contributions to this project:
 
 | Name                        | Email                                                             |
@@ -263,9 +271,9 @@ We thank the following team members for their contributions to this project:
 | José Sarmento               | [jose.m.sarmento@inesctec.pt](mailto:jose.m.sarmento@inesctec.pt) |
 | Pedro Rodrigues             | [pedro.rodrigues@inesctec.pt](mailto:pedro.rodrigues@inesctec.pt) |
 | João Tomás Castro           | [joao.t.castro@inesctec.pt](mailto:joao.t.castro@inesctec.pt)     |
-| Luís Santos                 | [luis.c.santos@inesctec.pt](mailto:luis.c.santos@inesctec.pt)     | -->
+| Luís Santos                 | [luis.c.santos@inesctec.pt](mailto:luis.c.santos@inesctec.pt)     |
 
-<!-- ---
+---
 
 ## Acknowledgments <span style="color:blue"> -- TODO --</span>
 This prototype was funded and developed under the following projects:
@@ -283,7 +291,7 @@ This work is financed by National Funds through the Portuguese funding agency, F
   <img src="./docs/logo_cores.jpg" width="150" style="margin-right: 50px;"/>
 </p>
 
---- -->
+---
 
 ## License
 
