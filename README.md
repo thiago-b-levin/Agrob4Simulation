@@ -272,25 +272,36 @@ We thank the following team members for their contributions to this project:
 | João Tomás Castro           | [joao.t.castro@inesctec.pt](mailto:joao.t.castro@inesctec.pt)     |
 | Luís Santos                 | [luis.c.santos@inesctec.pt](mailto:luis.c.santos@inesctec.pt)     |
 
----
 
-## Acknowledgments <span style="color:blue"> -- TODO --</span>
+## Acknowledgments
 This prototype was funded and developed under the following projects:
 
-- [Project Name 1](link_to_project) - Brief description of how this project was used.
-- [Project Name 2](link_to_project) - Brief description of how this project was used.
-- [Project Name 3](link_to_project) - Brief description of how this project was used.
+- [SCORPION](https://scorpion-h2020.eu/) - SCORPION’s objective is to develop a safe and autonomous precision spraying tool integrated into a modular unmanned tractor (robotics platform) to increase spraying efficiency, while reducing human and animal exposure to pesticides, water usage and labour costs.
+- [ROMOVI](https://www.inesctec.pt/en/projects/romovi#about) - The RoMoVi project main objective is the development of robotic components and a modular and extensible mobile platform, which will allow in the future to provide commercial solutions for hillside vineyards capable of autonomously executing operations of monitoring and logistics.
+- [ROSIN](https://www.rosin-project.eu/) - ROS-Industrial aims to transfer value and the ease of application to industrial hardware, by developing new components, improving existing ones, but also by performing non-development work such as compiling usage and development guidelines or performing license audits.
 
-This work is financed by National Funds through the Portuguese funding agency, FCT - Fundação para a Ciência e a Tecnologia, within project LA/P/0063/2020
+<div align="center">
+    <p align="center">
+      <img src="https://scorpion-h2020.eu/wp-content/uploads/2021/03/logo-scorpion-simple.png" width="150" style="margin-right: 50px;"/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- Espaço entre as imagens -->
+      <img src="http://rosin-project.eu/wp-content/uploads/rosin_ack_logo_wide.png" width="150" style="margin-right: 50px;"/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- Espaço entre as imagens -->
+      <img src="https://www.advid.pt/uploads/PROJETOS/projetos-logos/L7-P1-ROMOVI-Logo_01.png" width="150" style="margin-right: 50px;"/>
+    </p>
+</div>
 
-<p align="center">
-  <img src="./docs/compete.png" width="150" style="margin-right: 50px;"/>
-  <img src="./docs/barra_feder.svg" width="150" style="margin-right: 50px;"/>
-  <img src="./docs/ue-feder_cor.jpg" width="150" style="margin-right: 50px;"/>
-  <img src="./docs/logo_cores.jpg" width="150" style="margin-right: 50px;"/>
-</p>
+<div align="center">
+    <p align="center">
+      <img src="https://repositorio.inesctec.pt/logos/compete.png" width="150" style="margin-right: 50px;"/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- Espaço entre as imagens -->
+      <img src="https://repositorio.inesctec.pt/logos/norte2020/portugal2020.svg" width="150" style="margin-right: 50px;"/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- Espaço entre as imagens -->
+      <img src="https://repositorio.inesctec.pt/logos/ue-feder_cor.jpg" width="150" style="margin-right: 50px;"/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- Espaço entre as imagens -->
+      <img src="https://repositorio.inesctec.pt/logos/logo_cores.jpg" width="150" style="margin-right: 50px;"/>
+    </p>
+</div>
 
----
 
 ## License
 
