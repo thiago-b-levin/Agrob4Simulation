@@ -1,0 +1,24 @@
+<library path="wb_sensor_publisher">
+  <!-- The `type` attribute is a reference to the plugin class. -->
+  <!-- The `base_class_type` attribute is always `webots_ros2_driver::PluginInterface`. -->
+  <class type="webots_sensor_publisher::sensor_publisher" base_class_type="webots_ros2_driver::PluginInterface">
+    <description>
+      This is a plugin to publish wheel odometry from a Webots robot. 
+    </description>
+  </class>
+    <class type="webots_sensor_publisher::imupublisher" base_class_type="webots_ros2_driver::PluginInterface">
+    <description>
+      This is a plugin to publish the message geometry_msgs/Vector3Stamped. 
+    </description>
+  </class>
+  <class type="webots_scan_publisher::scan_publisher" base_class_type="webots_ros2_driver::PluginInterface">
+    <description>
+      This is a plugin to publish ROS2 pointcloud2 messages from a Webots lidar sensor.
+    </description>
+  </class>
+  <class type="webots_sensor_publisher::camera_publisher" base_class_type="webots_ros2_driver::PluginInterface">
+    <description>
+      This is a plugin to publish ROS2 Image messages from a Webots camera sensor.
+    </description>
+  </class>
+</library>

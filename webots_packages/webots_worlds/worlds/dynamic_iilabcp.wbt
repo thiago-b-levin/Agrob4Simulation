@@ -1,0 +1,65 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/humans/pedestrian/protos/Pedestrian.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.02510230111021513 -0.9776632213929406 -0.2086731894962787 6.038217047374911
+  position -28.347832426586315 1.148741617083891 2.284997270300757
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Solid {
+  translation 0 0 0
+  rotation 0 1 0 0
+  children [
+    CadShape {
+      url [
+        "../protos/iilab2xm1.obj"
+      ]
+    }
+  ]
+  boundingObject Mesh {
+    url [
+      "../protos/iilab2xm1.obj"
+    ]
+  }
+}
+Pedestrian {
+  translation -7 15.9 1.56
+  name "Thiago"
+  controllerArgs [
+    "--trajectory=-7 15.9, -7 12, -2 12, -2 15.9 "
+    "--speed=0.8"
+  ]
+}
+Pedestrian {
+  translation -20 13.9 1.56
+  
+  name "Pedro"
+  controllerArgs [
+    "--trajectory=-20 13.9, -35 13.9"
+    "--speed=0.8"
+  ]
+  shirtColor 0.466667 0.0980392 0.458824
+}
+Pedestrian {
+  translation -54.6 21 1.56
+  
+  name "André"
+  controllerArgs [
+    "--trajectory=-54.6 21, -50.6 21 , -50.6 30, -54.6 30"
+    "--speed=0.8"
+  ]
+  shirtColor 0.866667 0.180392 0.758824
+}
+Robot {
+  name "ground_truth_publisher"
+  controller "<extern>"
+  supervisor TRUE
+}

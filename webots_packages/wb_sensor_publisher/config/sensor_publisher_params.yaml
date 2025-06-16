@@ -1,0 +1,8 @@
+webots_sensor_publisher:
+  ros__parameters:
+    wheel_base: 0.5   # Distance between wheels in meters
+    wheel_radius: 0.2  # Wheel radius in meters
+    left_wheel_sensor: "FWLeft_Joint_sensor"  # Name of the left wheel sensor in Webots
+    right_wheel_sensor: "FWright_Joint_sensor"  # Name of the right wheel sensor in Webots
+    odom_frame: "odom"  # Name of the odometry frame
+    base_frame: "base_link"  # Name of the robot base frame

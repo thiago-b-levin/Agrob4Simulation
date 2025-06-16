@@ -1,0 +1,87 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.009775397377446768 -0.010399722959225565 0.9998981384963592 4.774447511789489
+  position -25.952784981374318 16.937525352391436 1.183592751554091
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Solid {
+  translation 0 0 -0.3
+  rotation 1 0 0 1.57
+  children [
+    CadShape {
+      url [
+        "/root/test_ws/install/webots_worlds/share/webots_worlds/worlds/../protos/iilabnoroof_scaled.obj"
+      ]
+    }
+  ]
+  boundingObject Mesh {
+    url [
+      "/root/test_ws/install/webots_worlds/share/webots_worlds/worlds/../protos/iilabnoroof_scaled.obj"
+    ]
+  }
+}
+Robot {
+  name "ground_truth_publisher"
+  controller "<extern>"
+  supervisor TRUE
+}
+Solid {
+  translation -25.93 8.87 -0.21
+  children [
+    DEF RAMP Group {
+      children [
+        Pose {
+          translation -1.841 0 0.45
+          rotation 0 -1 0 0.261801
+          children [
+            Shape {
+              appearance DEF APPEARANCE PBRAppearance {
+                baseColor 0.5 0.5 0.5
+                roughness 0.3
+                metalness 0
+              }
+              geometry Box {
+                size 2 7 0.1
+              }
+            }
+          ]
+        }
+        Pose {
+          translation 0 0 0.7044
+          children [
+            Shape {
+              appearance USE APPEARANCE
+              geometry Box {
+                size 1.8 7 0.1
+              }
+            }
+          ]
+        }
+        Pose {
+          translation 1.841 0 0.45
+          rotation 0 -1 0 -0.262
+          children [
+            Shape {
+              appearance USE APPEARANCE
+              geometry Box {
+                size 2 7 0.1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  name "ramp 15 degrees"
+  model "ramp 30 degrees"
+  boundingObject USE RAMP
+}

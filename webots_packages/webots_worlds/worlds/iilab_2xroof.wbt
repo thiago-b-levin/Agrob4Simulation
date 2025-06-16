@@ -1,0 +1,39 @@
+#VRML_SIM R2023b utf8
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+
+WorldInfo {
+}
+
+Viewpoint {
+  orientation -0.06660779017449811 -0.7436345925486074 0.6652600957919665 6.015557539267106
+  position -65.21522909882054 14.445551696397057 18.401372664486914
+}
+
+TexturedBackground {
+}
+
+TexturedBackgroundLight {
+}
+
+Solid {
+  translation 0 0 0
+  rotation 1 0 0 1.57
+  children [
+    CadShape {
+      url [
+        "../protos/iilab2x_roof.obj"
+      ]
+    }
+  ]
+  boundingObject Mesh {
+    url [
+      "../protos/iilab2x_roof.obj"
+    ]
+  }
+}
+Robot {
+  name "ground_truth_publisher"
+  controller "<extern>"
+  supervisor TRUE
+}

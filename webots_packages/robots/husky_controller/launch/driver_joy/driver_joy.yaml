@@ -1,0 +1,6 @@
+driver_joy:
+  ros__parameters:  
+    dev: "/dev/input/js1"
+    deadzone: 0.05
+    autorepeat_rate: 20
+    coalesce_interval: 0.05
