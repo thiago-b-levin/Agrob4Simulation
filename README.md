@@ -108,7 +108,7 @@ tribe_simulation           latest    f92722c46180   5 weeks ago   5.17GB
 1. **Clone the repository**
 
    ```bash
-   git clone https://gitlab.inesctec.pt/agrob/Agrob4Simulation.git 
+   git clone https://github.com/thiago-b-levin/Agrob4Simulation.git
    ```
 
 2. **Go to Docker Directory**
