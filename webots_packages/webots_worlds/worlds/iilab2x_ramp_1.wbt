@@ -19,13 +19,13 @@ Solid {
   children [
     CadShape {
       url [
-        "/root/test_ws/install/webots_worlds/share/webots_worlds/worlds/../protos/iilabnoroof_scaled.obj"
+        "../protos/iilabnoroof_scaled.obj"
       ]
     }
   ]
   boundingObject Mesh {
     url [
-      "/root/test_ws/install/webots_worlds/share/webots_worlds/worlds/../protos/iilabnoroof_scaled.obj"
+      "../protos/iilabnoroof_scaled.obj"
     ]
   }
 }
